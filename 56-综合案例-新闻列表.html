@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        /* 所有标签都可能添加内边距或border,都内减模式 */
+       }
+       .news{
+        width: 500px;
+        height: 400px;
+        border: 1px solid #ccc;
+        margin: 50px auto;
+        padding: 42px 30px 0;
+       }
+       .news h2{
+        border-bottom: 1px solid #ccc;
+        font-size: 30px;
+        /* 行高是1倍，就是字号的大小 */
+        /* line-height: 1;
+        padding-bottom: 9px; */
+       }
+       /* 去掉列表的符号 */
+       ul{
+        list-style: none;
+       }
+       .news li{
+        height: 50px;
+        border-bottom: 1px dashed #ccc;
+        padding-left: 28px;
+        line-height: 50px;
+       }
+       .news a{
+        text-decoration: none;
+        font-size: 18px;
+        color: #666;
+       }
+       .news a:hover{
+            color: pink;
+            background-color: blue;
+       }
+    </style>
+</head>
+<body>
+    <div class="news">
+        <h2>最新文章/New Ariticles</h2>
+        <ul>
+            <li><a href="#">北京招聘网页设计</a></li>
+            <li><a href="#">国庆节</a></li>
+            <li><a href="#">中秋之乐</a></li>
+            <li><a href="#">暑假正准备结束</a></li>
+            <li><a href="#">努力学习前端</a></li>
+        </ul>
+    </div>
+</body>
+</html>
